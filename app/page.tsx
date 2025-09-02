@@ -1,4 +1,5 @@
 import { db } from "@/prisma/db";
+import Navbar from "./ui/navbar";
 import TodoList from "./ui/todo-list";
 
 export default async function Home() {
